@@ -1,1 +1,1 @@
-Basic ELB with DB, showing HTTP/HTTPS
+Basic ELB with DB, after publish.
