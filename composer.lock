@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e8c3c14ff33b199b4a0838993eb8423",
+    "content-hash": "ca108689960f3671b1d60ba15dfb53ff",
     "packages": [
         {
             "name": "brick/math",
@@ -134,6 +134,58 @@
                 }
             ],
             "time": "2024-02-09T16:56:22+00:00"
+        },
+        {
+            "name": "czproject/git-php",
+            "version": "v4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/czproject/git-php.git",
+                "reference": "e257f2c3b43fe8fef19ddb5727b604416b423107"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/czproject/git-php/zipball/e257f2c3b43fe8fef19ddb5727b604416b423107",
+                "reference": "e257f2c3b43fe8fef19ddb5727b604416b423107",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "nette/tester": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Pecha",
+                    "email": "janpecha@email.cz"
+                }
+            ],
+            "description": "Library for work with Git repository in PHP.",
+            "keywords": [
+                "git"
+            ],
+            "support": {
+                "issues": "https://github.com/czproject/git-php/issues",
+                "source": "https://github.com/czproject/git-php/tree/v4.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.janpecha.cz/donate/git-php/",
+                    "type": "other"
+                }
+            ],
+            "time": "2023-07-12T09:14:30+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -2317,6 +2369,108 @@
             "time": "2024-03-06T16:17:14+00:00"
         },
         {
+            "name": "ocramius/package-versions",
+            "version": "2.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ocramius/PackageVersions.git",
+                "reference": "7b5821f854cf1e6753c4ed7ceb3b11ae83bbad4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ocramius/PackageVersions/zipball/7b5821f854cf1e6753c4ed7ceb3b11ae83bbad4e",
+                "reference": "7b5821f854cf1e6753c4ed7ceb3b11ae83bbad4e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-runtime-api": "^2.2.0",
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
+            },
+            "replace": {
+                "composer/package-versions-deprecated": "*"
+            },
+            "require-dev": {
+                "composer/composer": "^2.6.3",
+                "doctrine/coding-standard": "^12.0.0",
+                "ext-zip": "^1.15.0",
+                "phpunit/phpunit": "^9.6.12",
+                "roave/infection-static-analysis-plugin": "^1.33",
+                "vimeo/psalm": "^5.15.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PackageVersions\\": "src/PackageVersions"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com"
+                }
+            ],
+            "description": "Provides efficient querying for installed package versions (no runtime IO)",
+            "support": {
+                "issues": "https://github.com/Ocramius/PackageVersions/issues",
+                "source": "https://github.com/Ocramius/PackageVersions/tree/2.8.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Ocramius",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/ocramius/package-versions",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-09-15T11:02:59+00:00"
+        },
+        {
+            "name": "peppeocchi/laravel-elb-middleware",
+            "version": "v3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peppeocchi/laravel-elb-middleware.git",
+                "reference": "0b71c7117d2e269525220d417dc5dcaefc48379c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peppeocchi/laravel-elb-middleware/zipball/0b71c7117d2e269525220d417dc5dcaefc48379c",
+                "reference": "0b71c7117d2e269525220d417dc5dcaefc48379c",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/http-foundation": ">=3.2"
+            },
+            "type": "middleware",
+            "autoload": {
+                "psr-0": {
+                    "GO": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giuseppe Occhipinti",
+                    "email": "peppeocchi@gmail.com"
+                }
+            ],
+            "description": "Laravel middleware for Elastic Beanstalk",
+            "support": {
+                "issues": "https://github.com/peppeocchi/laravel-elb-middleware/issues",
+                "source": "https://github.com/peppeocchi/laravel-elb-middleware/tree/v3.0"
+            },
+            "time": "2019-07-05T07:43:20+00:00"
+        },
+        {
             "name": "phpoption/phpoption",
             "version": "1.9.2",
             "source": {
@@ -2390,6 +2544,58 @@
                 }
             ],
             "time": "2023-11-12T21:59:55+00:00"
+        },
+        {
+            "name": "poing/laravel-elb",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/poing/laravel-elb.git",
+                "reference": "4c5d70d640ed5f594b3644ab4f43272c0c66bdba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/poing/laravel-elb/zipball/4c5d70d640ed5f594b3644ab4f43272c0c66bdba",
+                "reference": "4c5d70d640ed5f594b3644ab4f43272c0c66bdba",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.5",
+                "peppeocchi/laravel-elb-middleware": ">=3"
+            },
+            "suggest": {
+                "czproject/git-php": "Provides branch information for the sample view.",
+                "ocramius/package-versions": "Provides package version for the sample view."
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Poing\\Beanstalk\\BeanstalkProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Poing\\Beanstalk\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian LaVallee",
+                    "email": "brian.lavallee@invite-comm.jp"
+                }
+            ],
+            "description": "Essentials for Laravel on AWS Elastic Beanstalk with HTTPS",
+            "support": {
+                "issues": "https://github.com/poing/laravel-elb/issues",
+                "source": "https://github.com/poing/laravel-elb"
+            },
+            "time": "2020-08-24T15:30:20+00:00"
         },
         {
             "name": "psr/clock",
