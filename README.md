@@ -1,3 +1,8 @@
+# Vite manifest not found at: /public/build/manifest.json
+
+This version fixes the issue deploying to ELB.
+Need to create the `public/build` directory before running `npm run build`.
+
 # Install Jetstream with Livewire
 ```
 composer require laravel/jetstream
